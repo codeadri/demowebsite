@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Step Analysis Documentation</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #24292e;
+        }
+        h1, h2, h3 {
+            color: #2f363d;
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 16px;
+        }
+        th, td {
+            padding: 6px 13px;
+            border: 1px solid #dfe2e5;
+        }
+        code {
+            background-color: rgba(27,31,35,0.05);
+            border-radius: 3px;
+            padding: 0.2em 0.4em;
+            font-family: SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;
+        }
+        pre {
+            background-color: #f6f8fa;
+            border-radius: 3px;
+            padding: 16px;
+            overflow: auto;
+        }
+        blockquote {
+            border-left: 4px solid #dfe2e5;
+            color: #6a737d;
+            padding: 0 1em;
+            margin: 0 0 16px 0;
+        }
+        hr {
+            height: 0.25em;
+            padding: 0;
+            margin: 24px 0;
+            background-color: #e1e4e8;
+            border: 0;
+        }
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weekly Step Analysis Documentation</h1>
+
+    <!-- This document analyzes step data for a week, comparing trends and social activity. -->  
+
+    <h2><strong>Overview</strong></h2>
+    <p>This report summarizes the number of steps walked each day over a week, comparing personal progress over time and with friends.</p>
+
+    <h3><strong>Key Insights</strong></h3>
+    <ul>
+        <li><strong>Highest step count:</strong> <em>Saturday</em> (12,345 steps)</li>
+        <li><strong>Lowest step count:</strong> <del>Monday</del> <em>Wednesday</em> (4,321 steps)</li>
+        <li><strong>Average steps/day:</strong> <code>8,573</code></li>
+    </ul>
+
+    <hr>
+
+    <h2><strong>Daily Step Breakdown</strong></h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Steps</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>5,678</td>
+                <td>Work from home</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>7,890</td>
+                <td>Gym session</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>4,321</td>
+                <td><strong>Lowest day</strong></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>9,876</td>
+                <td>Walked in the park</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>6,543</td>
+                <td>Rainy day</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>12,345</td>
+                <td>Hiking trip</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>10,987</td>
+                <td>Family outing</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2><strong>Comparisons</strong></h2>
+
+    <h3><strong>Personal Trends</strong></h3>
+    <ul>
+        <li><input type="checkbox" checked disabled> <strong>Improvement:</strong> Increased steps by <strong>15%</strong> compared to last week.</li>
+        <li><input type="checkbox" disabled> <strong>Goal:</strong> Reach an average of <strong>10,000 steps/day</strong> next week.</li>
+    </ul>
+
+    <h3><strong>Friend Leaderboard (Top 3)</strong></h3>
+    <ol>
+        <li><strong>Alex</strong> - 78,901 steps</li>
+        <li><strong>Jamie</strong> - 72,345 steps</li>
+        <li><strong>Me</strong> - 68,640 steps</li>
+    </ol>
+
+    <hr>
+
+    <h2><strong>Data Processing</strong></h2>
+
+    <h3><strong>Code Example (Smalltalk)</strong></h3>
+    <p>The following script calculates the average steps:</p>
+
+    <pre><code class="language-smalltalk">steps := #(5678 7890 4321 9876 6543 12345 10987).
+average := (steps inject: 0 into: [:sum :step | sum + step]) / steps size.
+Transcript show: 'Average steps: ', average asString; cr.</code></pre>
+
+    <h3><strong>Visualization</strong></h3>
+    <img src="https://via.placeholder.com/400x200?text=Weekly+Step+Trend" alt="Step Trend Graph">
+
+    <blockquote>
+        <p><em>"Walking is the best possible exercise."</em> - <strong>Thomas Jefferson</strong></p>
+    </blockquote>
+
+    <hr>
+
+    <h2><strong>Next Steps</strong></h2>
+    <ul>
+        <li><input type="checkbox" disabled> Sync data with fitness app (<a href="https://www.google.com/fit">Google Fit</a>)</li>
+        <li><input type="checkbox" checked disabled> Share results in group chat</li>
+    </ul>
+
+    <h3><strong>Bulleted Action Items</strong></h3>
+    <ul>
+        <li>Increase outdoor activity</li>
+        <li>Set reminders to walk hourly</li>
+        <li>Challenge friends to a step competition</li>
+    </ul>
+
+    <div style="margin-top: 40px; text-align: center;">
+        <p>For questions, contact: <!--email_off-->23f2005006@ds.study.iitm.ac.in<!--/email_off--></p>
+    </div>
+
+    <!-- Analysis complete. Update again next week! -->
+</body>
+</html>
